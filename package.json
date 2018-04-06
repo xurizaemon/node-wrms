@@ -1,0 +1,32 @@
+{
+  "name": "wrms",
+  "version": "0.0.1",
+  "description": "WRMS API wrapper",
+  "main": "lib/wrms.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xurizaemon/node-wrms.git"
+  },
+  "keywords": [
+    "wrms"
+  ],
+  "author": "Chris Burgess <chris.burgess@catalyst.net.nz>",
+  "license": "GPL-2.0+",
+  "bugs": {
+    "url": "https://github.com/xurizaemon/node-wrms/issues"
+  },
+  "homepage": "https://github.com/xurizaemon/node-wrms#readme",
+  "dependencies": {
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  }
+}
