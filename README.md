@@ -1,3 +1,15 @@
 # WRMS interface
 
-An interface to WRMS, for issues, timekeeping, and reporting.
+An API wrapper interface to WRMS.
+
+## TODO
+
+Pass in WRMS configuration.
+
+    var WRMS = require('wrms');
+    var creds = {
+      username: 'example',
+      password: 'example',
+      url: 'https://wrms.example.org'
+    };
+    var wrms = WRMS(creds);
