@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/xurizaemon/node-wrms#readme",
   "dependencies": {
+    "dotenv": "^5.0.1",
     "request": "^2.85.0",
     "request-promise-native": "^1.0.5"
   },
