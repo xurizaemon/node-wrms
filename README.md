@@ -2,14 +2,11 @@
 
 An API wrapper interface to WRMS.
 
-## TODO
+## Tests
 
-Pass in WRMS configuration.
+Credentials for tests live in `.env`. These need to be valid for your WRMS environment.
 
-    var WRMS = require('wrms');
-    var creds = {
-      username: 'example',
-      password: 'example',
-      url: 'https://wrms.example.org'
-    };
-    var wrms = WRMS(creds);
+    WRMS_URL=https://wrms.example.org
+    WRMS_USERNAME=exampleuser
+    WRMS_PASSWORD=secretpass
+    WRMS_TEST_USER_MAIL=user@example.org
