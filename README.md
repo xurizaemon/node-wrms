@@ -10,6 +10,7 @@ Credentials for tests live in `.env`. These need to be valid for your WRMS envir
     WRMS_USERNAME=exampleuser
     WRMS_PASSWORD=secretpass
     WRMS_TEST_USER_MAIL=user@example.org
+    WRMS_TEST_WR_SEARCH_TERM="hapax legomenon"
 
 ## TODO
 
