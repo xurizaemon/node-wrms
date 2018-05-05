@@ -2,6 +2,27 @@
 
 An API wrapper interface to WRMS.
 
+## Usage
+
+```JavaScript
+const WRMS = require('wrms')
+const wrms = new WRMS({
+                        endpoint: 'https://wrms.example.org',
+                        username: 'username',
+                        password: 'password'
+                      })
+
+wrms.user.lookup({field: 'email', key: 'user@example.org'})
+    .then((res) => {
+        // res is a resultset of users
+    })
+
+wrms.wr.search({q: 'search term'})
+    .then((res) => {
+        // res is a resultset of work requests
+})
+```
+
 ## Tests
 
 Credentials for tests live in `.env`. These need to be valid for your WRMS environment.
