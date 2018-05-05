@@ -17,7 +17,7 @@ wrms.user.lookup({field: 'email', key: 'user@example.org'})
         // res is a resultset of users
     })
 
-wrms.wr.search({q: 'search term'})
+wrms.work_request.search({q: 'search term'})
     .then((res) => {
         // res is a resultset of work requests
 })
@@ -35,4 +35,4 @@ Credentials for tests live in `.env`. These need to be valid for your WRMS envir
 
 ## TODO
 
-* Permit `new wrms(creds)` to accept `{ endpoint: 'xx', wrms3_auth: 'xyz' }` if we already have a cookie. (Is this a good idea or does it encourage bad ones?)
+* Permit `new WRMS(creds)` to accept `{ endpoint: 'xx', wrms3_auth: 'xyz' }` if we already have a cookie. (Is this a good idea or does it encourage bad ones?)
