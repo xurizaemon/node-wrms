@@ -20,7 +20,7 @@ wrms.user.lookup({field: 'email', key: 'user@example.org'})
 wrms.work_request.search({q: 'search term'})
     .then((res) => {
         // res is a resultset of work requests
-})
+    })
 ```
 
 ## Tests
