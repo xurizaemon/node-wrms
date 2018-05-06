@@ -33,6 +33,7 @@ Credentials for tests live in `.env`. These need to be valid for your WRMS envir
     WRMS_TEST_USER_MAIL=user@example.org
     WRMS_TEST_WR_SEARCH_TERM="search term"
     WRMS_TEST_WR_ID=123
+    WRMS_EXTRA_COOKIES="foo=bar; secret=very; much=authentication"
 
 ## TODO
 
