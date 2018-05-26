@@ -7,8 +7,17 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest"
+    "lint": "eslint ./",
+    "test": "jest",
+    "prepublish": "npm run build",
+    "dev": "watch 'npm run test' lib"
   },
+  "watch": {
+    "test": "lib/*.js"
+  },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/xurizaemon/node-wrms.git"
@@ -32,6 +41,7 @@
     "eslint": "^4.19.1",
     "jest": "^22.4.3",
     "jshint": "^2.9.5",
-    "mocha": "^5.0.5"
+    "mocha": "^5.0.5",
+    "watch": "^1.0.2"
   }
 }
