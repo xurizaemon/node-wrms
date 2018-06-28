@@ -9,8 +9,7 @@
   "scripts": {
     "lint": "eslint ./",
     "test": "jest",
-    "prepublish": "npm run build",
-    "dev": "watch 'npm run test' lib"
+    "dev": "./node_modules/.bin/watch 'npm run test' lib"
   },
   "watch": {
     "test": "lib/*.js"
