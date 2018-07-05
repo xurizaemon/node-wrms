@@ -1,0 +1,9 @@
+// Move this to .creds.js and use it per the examples
+// in docs/ folder.
+// See also env.example for tests.
+const creds = {
+  endpoint: 'https://wrms.example.org',
+  username: 'username',
+  password: 'password'
+}
+module.exports = creds
