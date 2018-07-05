@@ -45,3 +45,10 @@ But wait! There's more variables you can set in `.env`:
 * Split tests into separate files for clarity? Eg `wrms.login.test.js`, `wrms.work_request.test.js` ...
 * Do we need WRMSv2 API endpoints? Seems like there are some useful parts there, like "recent timesheets".
 * If `WRMS_EXTRA_COOKIES` isn't set, politely reject calls to v2 API.
+
+## References
+
+* [WRMS3](https://gitlab.wgtn.cat-it.co.nz/WRMS/wrms3)
+* [WRMS api v2](https://gitlab.wgtn.cat-it.co.nz/WRMS/wrms3/tree/master/wrms/pages)
+* [PHP client libs](https://gitlab.wgtn.cat-it.co.nz/WRMS/wrms-php)
+* [Perl client libs](http://gitprivate.catalyst.net.nz/gw?p=libwrms-perl.git;a=summary)
