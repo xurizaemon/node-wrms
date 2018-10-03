@@ -52,3 +52,4 @@ But wait! There's more variables you can set in `.env`:
 * [WRMS api v2](https://gitlab.wgtn.cat-it.co.nz/WRMS/wrms3/tree/master/wrms/pages)
 * [PHP client libs](https://gitlab.wgtn.cat-it.co.nz/WRMS/wrms-php)
 * [Perl client libs](http://gitprivate.catalyst.net.nz/gw?p=libwrms-perl.git;a=summary)
+* [WR#286231: Port wr.php to WRMSv3 and make it API driven](https://wrms.catalyst.net.nz/286231) 
