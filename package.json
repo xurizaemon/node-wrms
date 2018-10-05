@@ -8,7 +8,7 @@
   },
   "scripts": {
     "lint": "eslint ./",
-    "test": "jest",
+    "test": "jest --env node",
     "dev": "./node_modules/.bin/watch 'npm run test' lib"
   },
   "watch": {
