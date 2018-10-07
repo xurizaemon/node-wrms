@@ -35,7 +35,6 @@ for (let id of wrs) {
   wrms.work_request.get(id)
     .then((res) => {
       let wr = res.response
-      console.log(id, res.response)
       let parents = [295131]
       if (typeof wr.parents_by_type.I !== 'undefined') {
         if (wr.parents_by_type.I.includes('295131')) return;
