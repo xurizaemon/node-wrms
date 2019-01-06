@@ -46,6 +46,8 @@ But wait! There's more variables you can set in `.env`:
 * Do we need WRMSv2 API endpoints? Seems like there are some useful parts there, like "recent timesheets".
 * If `WRMS_EXTRA_COOKIES` isn't set, politely reject calls to v2 API.
 * [`docs/assign-user.js`](docs/assign-user.js) - WRMS forms don't let you easily assign a user to a ticket outside their systems, but I suspect API will.
+* Is `api.php/times/record` API v1, and `api2/request_update` API v2?
+* Does API v2 correspond to WRMS v3? (`api2/login` returns `wrms3_auth` cookie) 
 
 ## References
 
