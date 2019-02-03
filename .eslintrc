@@ -1,5 +1,50 @@
 {
-  "parserOptions": {
-    "ecmaVersion": 6
+  "extends": ["catalyst", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "curly": ["error", "all"],
+    "lines-around-comment": [
+      "warn",
+      {
+        "beforeBlockComment": true,
+        "afterBlockComment": false,
+        "beforeLineComment": true,
+        "afterLineComment": false,
+        "allowBlockStart": true,
+        "allowBlockEnd": true,
+        "allowObjectStart": true,
+        "allowObjectEnd": true,
+        "allowArrayStart": true,
+        "allowArrayEnd": true,
+        "allowClassStart": true,
+        "allowClassEnd": true
+      }
+    ],
+    "max-len": [
+      "warn",
+      {
+        "code": 120,
+        "comments": 120,
+        "tabWidth": 2,
+        "ignoreUrls": true,
+        "ignoreComments": false,
+        "ignoreTrailingComments": false,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals": true
+      }
+    ],
+    "prefer-arrow-callback": [
+      "error",
+      {
+        "allowNamedFunctions": true,
+        "allowUnboundThis": false
+      }
+    ]
+  },
+  "env": {
+    "amd": true,
+    "jest": true,
+    "node": true
   }
 }
