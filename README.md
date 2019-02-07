@@ -1,6 +1,9 @@
 # WRMS interface
 
-An API wrapper interface to WRMS.
+An API client interface to WRMS.
+
+[![pipeline status](https://gitlab.wgtn.cat-it.co.nz/chrisburgess/node-wrms/badges/master/pipeline.svg)](https://gitlab.wgtn.cat-it.co.nz/chrisburgess/node-wrms/commits/master)
+[![coverage report](https://gitlab.wgtn.cat-it.co.nz/chrisburgess/node-wrms/badges/master/coverage.svg)](https://gitlab.wgtn.cat-it.co.nz/chrisburgess/node-wrms/commits/master)
 
 ## Usage
 
