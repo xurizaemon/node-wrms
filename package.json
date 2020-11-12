@@ -32,7 +32,7 @@
   "homepage": "https://github.com/xurizaemon/node-wrms#readme",
   "dependencies": {
     "dotenv": "^5.0.1",
-    "request": "^2.85.0",
+    "request": "^2.88.0",
     "request-promise-native": "^1.0.5"
   },
   "devDependencies": {
@@ -44,7 +44,7 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "jest": "^22.4.3",
-    "jshint": "^2.9.5",
+    "jshint": "^2.10.1",
     "mocha": "^5.0.5",
     "prettier": "^1.16.3",
     "skip-if": "^1.1.1",
