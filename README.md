@@ -40,7 +40,6 @@ Credentials for tests live in `.env`. These need to be valid for your WRMS envir
 But wait! There's more variables you can set in `.env`.
 
 * `WRMS_SSL_INSECURE=true` when someone forgets to renew a cert
-* `WRMS_EXTRA_COOKIES="foo=bar; secret=very; much=authentication"` when you need to talk to WRMS v2's API endpoints (aka the v1 API, which includes timesheets). *Removed in [3d3f510b](https://gitlab.wgtn.cat-it.co.nz/chrisburgess/node-wrms/commit/3d3f510b2c13e77a80bd9cf7d58b285a0665bde9) (v0.0.2).*
 
 ## TODO
 
@@ -57,4 +56,12 @@ But wait! There's more variables you can set in `.env`.
 * [WRMS API v1](https://gitlab.wgtn.cat-it.co.nz/WRMS/wrms2/tree/master/inc/api)
 * [PHP client libs](https://gitlab.wgtn.cat-it.co.nz/WRMS/wrms-php)
 * [Perl client libs](http://gitprivate.catalyst.net.nz/gw?p=libwrms-perl.git;a=summary)
-* [WR#286231: Port wr.php to WRMSv3 and make it API driven](https://wrms.catalyst.net.nz/286231) 
+* [WR#286231: Port wr.php to WRMSv3 and make it API driven](https://wrms.catalyst.net.nz/286231)
+
+## Related projects
+
+Other things that might be of interest.
+
+* [WRMS CLI](https://github.com/jlabusch/wrms-cli)
+* [WRMS Dash](https://github.com/jlabusch/wrms-dash)
+* [Atom WRMS](https://github.com/xurizaemon/atom-wrms)
