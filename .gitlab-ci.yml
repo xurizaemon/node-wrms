@@ -1,7 +1,19 @@
 image: node:8
 
-all_tests:
+npm test:
+  retry: 2
   script:
-    - echo "Testing against $WRMS_URL"
+    # Check we can access ${WRMS_URL} first.
+    - echo "Checking we can access ${WRMS_URL}"
+    - http_code=$(curl -w '%{http_code}' -m 5 -sfSL -o login-html.txt ${WRMS_URL})
+    - |
+      if [ "${http_code}" != "200" ]; then
+          echo "curl received HTTP status $http_code for ${WRMS_URL}"
+          exit 1
+      fi
+    # Run the tests.
     - npm ci
     - npm test
+  artifacts:
+    paths:
+      - login-html.txt
